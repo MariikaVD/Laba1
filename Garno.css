@@ -1,0 +1,138 @@
+@font-face {
+    font-family:"Roboto-Black" ;
+    src: url(./fonts/Roboto-Black.ttf);
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-style: normal;
+}
+html{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto-Black", sans-serif;
+    line-height: 1.5;
+    background-color:#fff;
+    color:#373737;
+    letter-spacing: 2px;
+}
+
+header{
+    width: 100%;
+    display: block;
+    padding: 32px 0px 36px 0px;
+}
+.header-nav{
+    text-decoration: none;
+    margin-right: 60px; 
+    color: #16a085;
+    text-transform: uppercase;
+    
+}
+
+.header-nav:last-child{
+    margin-right: 0;
+}
+
+nav{
+    width: 100%;
+    max-width: 578px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Golovniy-photo {
+    width: 100%;
+}
+.Golovniy{
+    background-color: #fff;
+}
+.Osnova{
+    line-height: 1.5;
+    color: #373737;
+    margin: 0 auto;
+    max-width: 1028px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 54px 0 30px 0;
+    font-size: 22px;
+
+}
+.Text1 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    color: #373737;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.Text2 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    color: #373737;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.button_area{
+    width: 100%;
+    max-width: 192px;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 19px 0 19px 0;
+    text-align: center;
+    background-color: #16a085;
+}
+.Head-Text{
+    background-color: #f5f6f7;
+    padding-bottom: 54px;
+}
+.Button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_area {
+    padding: 46px 106px 46px 106px;
+    background-color: #fff;
+    color: #373737;
+}
+
+.footer_area nav {
+    width: 100%;
+    max-width: 346px;
+    margin-right: 300px;
+}
+
+.footer_navigation {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.footer_navigation:not(:last-child)::after {
+    content: "|";
+    margin: 0 0 0 6px;
+    color: #16a085;
+}
+
+.footer_text {
+    display: inline-block;
+}
+
+.right_text {
+    font-size: 16px;
+}
